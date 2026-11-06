@@ -117,8 +117,15 @@ lib/
 ---
 
 ## 📸 Capturas de Tela
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/23fe7621-b77c-4c23-9e18-9a9542599884" width="220" />
+  <img src="https://github.com/user-attachments/assets/914983ef-2dba-4a77-b157-fd088f44e49a" width="220" />
+  <img src="https://github.com/user-attachments/assets/b3373afb-7dfe-45c4-8444-44bb9b1aaf51" width="220" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf1a3786-b61d-460f-9a60-e719b5c5be81" width="220" />
+  <img src="https://github.com/user-attachments/assets/de731361-b66d-4028-8fd8-4a708be1bafb" width="220" />
+</p>
 
-(Screenshot_20261105_215858.jpg)
-(Screenshot_20261105_215906.jpg)
-(Screenshot_20261105_221649.jpg)
-(Screenshot_20261105_221654.jpg)
+
+
