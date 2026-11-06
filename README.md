@@ -27,7 +27,7 @@ Atividade desenvolvida para a disciplina **Programação para Dispositivos Móve
      - **Distância percorrida:** $\text{KM atual} - \text{KM anterior}$
      - **Consumo médio (km/L):** $\frac{\text{Distância}}{\text{Litros atuais}}$
      - **Custo por quilômetro (R\$/km):** $\frac{\text{Valor Total atual}}{\text{Distância}}$
-   - Gráfico interativo com a biblioteca **fl_chart** exibindo a evolução temporal do consumo ($\text{km/L}$) e do custo por quilômetro ($\text{R\$/km}$).
+   - Gráfico interativo com a biblioteca `fl_chart` exibindo a evolução temporal do consumo (km/L) e do custo por quilômetro (R$/km).
    - Cards de resumo com consumo médio geral e custo médio por quilômetro.
    - Histórico completo com detalhes de cada abastecimento e opção de exclusão.
 
@@ -77,30 +77,34 @@ lib/
 
 ## 📦 Bibliotecas e Dependências
 
-| Biblioteca | Finalidade |
-|---|---|
-| [`sqflite`](https://pub.dev/packages/sqflite) | Banco de dados relacional SQLite local no dispositivo |
-| [`path`](https://pub.dev/packages/path) | Manipulação e junção de caminhos de arquivos para o banco |
-| [`http`](https://pub.dev/packages/http) | Requisições HTTP para consumo da BrasilAPI |
-| [`fl_chart`](https://pub.dev/packages/fl_chart) | Gráficos interativos de linha e evolução |
-| [`intl`](https://pub.dev/packages/intl) | Formatação de moeda brasileira (R$) e data/hora |
+| Biblioteca                                      | Finalidade                                                |
+| ----------------------------------------------- | --------------------------------------------------------- |
+| [`sqflite`](https://pub.dev/packages/sqflite)   | Banco de dados relacional SQLite local no dispositivo     |
+| [`path`](https://pub.dev/packages/path)         | Manipulação e junção de caminhos de arquivos para o banco |
+| [`http`](https://pub.dev/packages/http)         | Requisições HTTP para consumo da BrasilAPI                |
+| [`fl_chart`](https://pub.dev/packages/fl_chart) | Gráficos interativos de linha e evolução                  |
+| [`intl`](https://pub.dev/packages/intl)         | Formatação de moeda brasileira (R$) e data/hora           |
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
+
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) (versão 3.x ou superior)
 - Emulador Android, dispositivo físico ou navegador com suporte a Flutter.
 
 ### Passo a passo
+
 1. Clone este repositório:
+
    ```bash
    git clone <URL_DO_REPOSITORIO>
    cd flutter_application_1
    ```
 
 2. Instale as dependências:
+
    ```bash
    flutter pub get
    ```
@@ -114,12 +118,7 @@ lib/
 
 ## 📸 Capturas de Tela
 
-> *Adicione as capturas de tela do aplicativo em execução nas seções abaixo:*
-
-| Dashboard / Indicadores | Cadastro de Veículo (FIPE) | Novo Abastecimento |
-|---|---|---|
-| *(Screenshot Dashboard)* | *(Screenshot Veículo)* | *(Screenshot Abastecimento)* |
-
-| Gráficos de Evolução | Histórico de Abastecimentos | Confirmação de Exclusão |
-|---|---|---|
-| *(Screenshot Gráfico)* | *(Screenshot Histórico)* | *(Screenshot Diálogo Exclusão)* |
+(Screenshot_20261105_215858.jpg)
+(Screenshot_20261105_215906.jpg)
+(Screenshot_20261105_221649.jpg)
+(Screenshot_20261105_221654.jpg)
